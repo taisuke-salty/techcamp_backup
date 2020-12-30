@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-wrap">
+        <div class="blog-title">
+          <h1><a href="/">blog</a></h1>
+        </div>
+        <div class="btns">
+          <%= link_to "sign up", "/users/sign_up", class: "btn btn1", method: :get %>
+          <%= link_to "sign in", "/users/sign_in", class: "btn btn2", method: :get %>
+          <%= link_to "sign out", "/users/sign_out", class: "btn btn3", method: :delete %>
+          <%= link_to "New", "/articles/new", class: "btn btn4", method: :get %>
+
+        </div>  
+      </div>
+    </header>
+    
+    <%= yield %> 
+    
+    <footer>
+      <p>copyright taisuke sato</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+#red {
+    color: red;
+}
+
+.box {
+  width: 200px;
+  border: 1px solid #111;
+  padding: 20px;
+  margin: 50px 20px;
+}
+ 

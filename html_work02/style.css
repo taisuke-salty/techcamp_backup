@@ -1,0 +1,25 @@
+.buttons {
+  background-color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0px 3px 3px 0px #8e8e8e;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.inner {
+  width: 960px;
+  margin: 100px auto 0;
+}

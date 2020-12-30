@@ -1,0 +1,13 @@
+<p>tweetの表示</p>
+<%= @tweet.text %>
+<%= @tweet.created_at %>
+</br>
+</br>
+
+<p>tweets2の表示</p>
+<% @tweets2.each do |tweet|%>
+  <%= tweet.id %>
+  <%= tweet.text %>
+  <%= tweet.created_at %>
+</br>
+<% end %>

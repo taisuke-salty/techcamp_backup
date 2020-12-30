@@ -1,0 +1,38 @@
+* {
+  background-color: white;
+  box-sizing: box;
+}
+
+header {
+  height: 20vh;
+  width: 100vw;
+}
+
+.header-wrap {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+.blog-title {
+  margin: auto;
+}
+
+.btns {
+  display: flex;
+  margin: 0 0 0 auto;
+
+}
+
+.btn {
+    border: solid;
+}
+
+
+.contents .articles p{
+  border: solid;
+}
+
+.container {
+  border: solid;
+}

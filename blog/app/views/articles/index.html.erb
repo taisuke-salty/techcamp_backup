@@ -1,0 +1,19 @@
+<div class="contents" >
+  <div class="articles" >
+  <% @articles.each do |article| %>
+    <div class="container">
+    <p>
+      <%= article.text %>
+    </p>
+    <%if (user_signed_in?) && (article.user_id == current_user.id)  %>
+      <div class="btns">
+        <%= link_to "編集", "/articles/#{article.id}/edit", method: :get, class: "btn" %>
+        <%= link_to "削除", "/articles/#{article.id}", method: :delete, class: "btn" %>
+      </div>
+    <% end %>
+    </div>
+    </br>
+  <% end %>
+  </div>
+</div>
+  

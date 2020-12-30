@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ねこったー</title>
+  </head>
+  <body>
+    <header>
+      <h1>ねこったー</h1>
+    </header>
+    <div class="contents">
+      <h2>投稿する</h2>
+      <%= form_tag("/tweets", method: :post, class: "clearfix") do %>
+        <img src="/assets/cat1.png">
+        <textarea name="text" rows="4" cols="30"></textarea>
+        <div class="button-box">
+          <input type="submit" class="submit-button">
+        </div>
+      <% end %>
+    </div>
+  </body>
+</html>

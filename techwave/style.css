@@ -1,0 +1,112 @@
+html {
+    font-family: "yugoGothic", sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 50px;
+    background-color: #0072BB;
+    
+    padding-left: 20px;
+    
+    font-family: "Seymour One", sans-serif;
+    font-size:  20px;
+    color: #F9CB40;
+    Line-height: 50px;
+    letter-spacing: 1px;
+    
+}
+
+.menu {
+    height: 40px;
+    background-color: #87ceeb;
+    /*text-decoration: none;*/
+    /*color: #eee;*/
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 30px;
+    line-height: 40px;
+    
+}
+
+.contents {
+    height: calc(100vh - 140px);
+    background-color: #b0e0e6;
+    display: flex;
+    padding: 80px 0;
+    overflow: scroll;
+}
+
+.main-contents {
+    width: 70px;
+    padding: 0 100px 0 200px;
+    min-width: 880px;
+    
+}
+
+.article {
+    width: 600px;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.article-image {
+    height: 100px;
+    width: 100px;
+    background-color: #eee;
+}
+
+.article-image .image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.article-text {
+    height: 100px;
+    width: 500px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    
+}
+.sub-contents {
+    width: 30%;
+    height: 100%;
+    padding: 20px 50px;
+    color: #666;
+        min-width: 350px;
+}
+
+.sub-contents p {
+    margin-bottom: 20px
+}
+
+.footer {
+    height: 50px;
+    background-color: #0072BB;
+    color: #F9CB40;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
